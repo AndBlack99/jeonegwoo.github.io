@@ -1,0 +1,217 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    border-collapse: collapse;
+    margin: 0px;
+    padding: 0px;
+    color: #000;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 100;
+}
+.contents1{
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.contents2{
+    font-size: 14px;
+}
+
+
+.intro_bg {
+    background-color: #222;
+    width: 1580px;
+    height: 318px;
+}
+
+.header {
+    display: flex;
+    width: 1280px;
+    margin: auto;
+    height:86px;
+}
+
+#images {
+    width: 30%;
+    margin: -33px;
+}
+
+.search_area{
+    width: 300px;
+    height: 40px;
+    background: rgba(0,0,0,0.5);
+    border-radius:  5px;
+    margin-top: 24px;
+    position: relative;
+    right: 100px;
+}
+.search_area >form > input {
+    border: none;
+    width:250px;
+    height: 40;;
+    background: rgba(0,0,0,0.0);
+    color: #fff;
+    padding-left: 10px;
+}
+
+.search_area >form > span {
+    width: 50px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.nav {
+    display: flex;
+    width: calc(1280px - 300px);
+    justify-content: flex-end;
+    line-height: 86px;
+    color: #fff;
+    margin: auto 50px auto auto ;
+
+}
+
+.nav > li {
+    margin-left: 84px;
+}
+
+.nav > li > a {
+    color: #fff;
+}
+
+.intro_text {   
+    width: 100%;
+    margin: 80px auto 80px auto;
+    text-align: center;
+}
+
+.intro_text > h1,
+.intro_text > h4{
+    color: #fff;
+}
+
+.amount{
+    width: 1280px;
+    display: flex;
+    background: #fff;
+    margin: auto;
+    position: relative;
+    top: -66px;
+    box-shadow:5px 0px 10px rgba(0,0,0,0.5);
+}
+
+.amount > li > div{
+    text-align: center;
+    height: 57px;
+    margin-top: 37px;
+}
+
+.amount > li:not(:last-child) > div{
+    border-right: 3px solid gray;
+}
+.amount > li{
+    flex: 1;
+    height: 132px;
+}
+
+
+
+
+
+
+
+
+
+
+#container {
+    width:500px;
+    margin:auto;
+    position: relative;
+    right: 380px;
+  }
+  #login_input {
+    float:left;
+  }
+  input[type="text"], input[type="password"]{
+    
+    display:block;
+    width:300px;
+    height:35px;
+    line-height:35px;
+    border:1px solid #ccc;
+    background-color:#eee;
+  }
+  #login_bttn > button {
+    float:left;
+    width:100px;
+    height:78px;
+    background-color:#222;
+    color:white;
+    border:none;
+    cursor: pointer;
+  }
+  #finding_bttn {
+    margin:auto;
+  }
+
+
+
+
+
+
+  #container_CL{
+    margin:-100px auto auto 430px;
+    width:600px;
+    padding:10px 20px;  
+  }
+  #ul {
+    list-style: none;
+  }
+  #CheckInfo {
+    margin-top:10px;
+  }
+  
+  #CheckInfo li {
+    font-size:1em;
+    line-height: 3;
+  }
+  #CheckInfo label {
+    display:inline-block;
+    width:50px;
+  }
+  #CheckInfo input {
+    width:450px;
+    padding:5px;
+  }
+  
+  #button {
+    width:150px;
+    margin:20px 55px;
+    font-size:1em;
+    padding:5px 10px;
+  }
+  
+  #CheckList {
+    width:500px;
+    margin-top:80px;
+    position:relative;
+  }
+  
+  #CheckList li {
+    font-size:1em;
+    padding:10px;
+    border-bottom:1px solid #ccc;
+    position: relative;
+  }
+  .delButton:hover {
+    cursor:pointer;
+  }
+  .delButton {  
+    padding:5px 10px;
+    font-size:0.8em;
+    position:absolute;  
+    right:10px;
+  }

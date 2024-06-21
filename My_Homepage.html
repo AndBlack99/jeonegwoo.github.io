@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="example.css">
+</head>
+<body>
+    <div class="wrap">
+        <div class="intro_bg">
+            <div class="header">
+                <div class="search_area">
+                    <form>
+                    <input type="search" placeholder="Search">
+                    <button type="button" onclick="javascript:alert('검색기능까지 구현할 능력은 없었습니다..ㅜㅜ')">검색</button>
+                    </form>
+                </div>
+                <ul class="nav">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">Option</a></li>
+                    <li><a href="#">Exit</a></li>
+                </ul>
+            </div>
+            <div class="intro_text">
+                <h1>나는 이정우! 사항년!</h1>
+                <h4>과제하는 칭! 구!</h4>
+            </div>
+        </div>
+        <!---->
+        <ul class="amount">
+            <li>
+                <div>
+                    <div class="contents1">Profile</div>
+                    <div class="contents2">이름 : 이 정 우</div>
+                    <div class="contents2">연락처 : 010-6662-2143</div>
+                    <div class="contents2">주소 : 대전 동구 한남로 8번길 10</div>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <div class="contents1">전 공</div>
+                    <div class="contents2">전공 : 수학</div>
+                    <div class="contents2">다전공 : 컴퓨터공학</div>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <div class="contents1">연혁</div>
+                    <div class="contents2">2017.2 - 서령고등학교 졸업</div>
+                    <div class="contents2">2019.2 - 한남대학교 수학과 입학</div>
+                    <div class="contents2">2021.10 - 제 8군단 102기갑여단 육군병장 만기전역</div>
+                    <div class="contents2">2025.2 - 한남대학교 수학,컴퓨터공학 학사학위 취득원함</div>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <img src="profile_image.jpeg" id="images">
+                </div>
+            </li>
+        </ul>
+    </div>
+<!--Login box-->
+    <div id="container">
+        
+        <h3>로그인</h3>
+        <form>
+          <div id="login_input">
+            <input type="text" autofocus placeholder="아이디">
+            <input type="password" placeholder="비밀번호">
+          </div>
+          <div id="login_bttn">
+            <button type="submit" onclick="javascript:alert('로그인 기능을 넣을 능력도 없었습니다..ㅜㅜ')" class="order">로그인</button>
+          </div>
+        </form>
+        <div id="finding_bttn">
+            <button type="button" onclick="javascript:alert('ID : 2019**** P/W: 01066******')">아이디/비밀번호 찾기</button>
+        </div>
+<!--Check List-->
+    <div id="container_CL">
+        <h1>일 정</h1>
+        <form>
+          <ul id="CheckInfo">
+            <li>
+              <label for="title">날짜</label>
+              <input type="text" id="title">
+            </li>    
+            <li>
+                <label for="author">내용</label>
+                <input type="text" id="author">
+              </li>   
+          </ul>
+      
+          <button type="reset">취소하기</button>
+          <button id="save">저장하기</button>
+        </form>
+            
+        <ul id="CheckList"></ul>
+      </div>
+          
+      <script src="CheckList.js"></script>
+</body>
+</html>

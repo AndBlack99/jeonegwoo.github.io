@@ -1,0 +1,59 @@
+* {
+  margin:auto;
+  padding:0;
+  box-sizing: border-box;
+}
+
+#container_CL{
+  margin:50px auto;
+  width:600px;
+  padding:10px 20px;  
+}
+Checkul {
+  list-style: none;
+}
+#CheckInfo {
+  margin-top:40px;
+}
+
+#CheckInfo li {
+  font-size:1em;
+  line-height: 3;
+}
+#CheckInfo label {
+  display:inline-block;
+  width:50px;
+}
+#CheckInfo input {
+  width:450px;
+  padding:5px;
+}
+
+#button {
+  width:150px;
+  margin:20px 55px;
+  font-size:1em;
+  padding:5px 10px;
+}
+
+#CheckList {
+  width:500px;
+  margin-top:80px;
+  position:relative;
+}
+
+#CheckList li {
+  font-size:1em;
+  padding:10px;
+  border-bottom:1px solid #ccc;
+  position: relative;
+}
+.delButton:hover {
+  cursor:pointer;
+}
+.delButton {  
+  padding:5px 10px;
+  font-size:0.8em;
+  position:absolute;  
+  right:10px;
+}
